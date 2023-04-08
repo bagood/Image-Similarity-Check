@@ -1,3 +1,3 @@
 # Image-Similarity-Check
 
-Conduct an image similarity check by using the basic knowledge of vectors within mathematics
+Check similarities between two pictures using basic knowledge of vectors
