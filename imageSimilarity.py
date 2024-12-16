@@ -35,8 +35,8 @@ def calc(datapap1, datapap2):
     test_dot_product = dot_product(data_pap1, data_pap2)
     test_matrix_magnitude1 = matrix_magnitude(data_pap1)
     test_matrix_magnitude2 = matrix_magnitude(data_pap2)
-    calculate = test_dot_product / (test_matrix_magxnitude2 * test_matrix_magnitude1)
-    print(f'hasil kemiripan 2 foto adalah {round(calculate*100)}%')
+    calculate = test_dot_product / (test_matrix_magnitude2 * test_matrix_magnitude1)
+    print(f'The similarity score between the two pictures is {round(calculate*100)}%')
     return ''
 
 calc(data_pap1, data_pap2)
